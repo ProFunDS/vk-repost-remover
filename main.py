@@ -4,7 +4,7 @@ from time import sleep
 
 from vk_api import VkApi
 
-from config import login, password, token # access_token
+from config import login, password, token # access_token с правами доступа: wall.
 
 
 def two_factor():
