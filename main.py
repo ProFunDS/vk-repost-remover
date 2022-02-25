@@ -9,7 +9,7 @@ from config import login, password, token # access_token
 
 def two_factor():
     code = input('Код аутентификации: ')
-    return code, True
+    return code, True # True - сохранить сессию в локальном файле.
 
 def enter():
     vk_session = VkApi(login, password, token=token, auth_handler=two_factor)
