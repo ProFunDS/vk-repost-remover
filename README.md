@@ -1,6 +1,6 @@
 # vk-repost-remover
-ENG:  
+:gb:
 Synchronous Python script with vk_api library for deleting reposts on your VKontakte wall.  
 
-RU:  
+:ru:
 Синхронный Python скрипт с vk_api библиотекой для удаления репостов на Вашей стене ВКонтакте.
