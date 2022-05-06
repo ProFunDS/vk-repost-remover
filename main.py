@@ -2,13 +2,15 @@
 
 from time import sleep
 
+from typing import Tuple
+
 from vk_api import VkApi
 from vk_api.vk_api import VkApiMethod
 
 from config import login, password, token  # access_token с правами доступа: wall.
 
 
-def two_factor() -> tuple[str, bool]:
+def two_factor() -> Tuple[str, bool]:
     code = input('Код аутентификации: ')
     return code, True  # True - сохранить сессию в локальном файле.
 
